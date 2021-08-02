@@ -1,4 +1,2 @@
 # Note
-Code training
-
 Hello
