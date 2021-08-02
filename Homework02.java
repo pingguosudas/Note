@@ -1,8 +1,18 @@
 
-//将个人的基本信息（姓名、性别、籍贯、住址）打印到控制台上输出。各条信息分别占一行
 public class Homework02 {
-	public static void main (String[]args){
-		//考察对转义字符的使用
-		System.out.println("姓名\t性别\t籍贯\t住址\n石介\t男\t湖北\t红安");	
+
+	//编写一个main方法
+	public static void main(String[] args) {
+
+		int n1;
+		n1 = 13;
+		int n2;
+		n2 = 17;
+		int n3;
+		n3 = n1 + n2;
+		System.out.println("n3 = " + n3);//30
+		int n4 = 38;
+		int n5 = n4 - n3;
+		System.out.println("n5 = " + n5);//8
 	}
 }
